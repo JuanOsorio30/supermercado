@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Este bloque de estilos establece que todos
+   los elementos (*) en la página tendrán un margen (margin) y un relleno
+    (padding) de 0, y el modelo de caja (box-sizing) será border-box, 
+    lo que significa que el tamaño total del elemento incluirá el relleno y 
+    el borde, pero no el margen */
+}
+
+
+.form-register {  /*  Este bloque de estilos se aplica a un formulario 
+  de registro específico en la pagina, Contiene estilos como ancho, fondo, 
+  relleno, margen, borde, tipo de letra, color de texto y sombra*/
+  width: 300px;
+  background: #cfcccc;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: black;
+  box-shadow: 7px 13px 37px #f8f5f5;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls { /* Este bloque de estilos se aplica a los campos 
+  de entrada en el formulario. Define estilos como ancho, fondo,
+   relleno, bordes redondeados, margen inferior, tipo de letra y 
+   color de texto  */
+  width: 100%;
+  background: #f6f6fc;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #fafafa;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+}
+
+.form-register p { 
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a { /*Este bloque de estilos define el color
+   y el subrayado para los enlaces dentro del formulario de
+    registro, tanto en estado normal como en estado de hover.*/
+  color: rgb(14, 13, 13);
+
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: rgb(14, 13, 13);
+  text-decoration: underline;
+}
+
+.form-register .botons { /* Este bloque de estilos define los
+   estilos para los botones dentro del formulario de registro, 
+   Incluye ancho, fondo, relleno, borde, margen y otros estilos 
+   relacionados con la apariencia del botón */
+  width: 40%;
+  background: #0d6d05;
+  border: none;
+  padding: 12px;
+  color: rgb(14, 13, 13);
+  margin: 16px 0;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 30px; /* Ajusta este valor para hacer el botón más ovalado */
+}
+
+.form-container { /* Este bloque de estilos define los estilos para el contenedor 
+  del formulario, Incluye estilos como ancho máximo, margen automático y alineación de texto.*/
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center-image { /*  Este bloque de estilos se utiliza para centrar una imagen en la página.*/
+  display: block;
+  margin: 0 auto;
+}
+
+.contenedor { /* Este bloque de estilos define los estilos para otro contenedor genérico en la página.*/
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/*  */
+h1 { /*  Este bloque de estilos define los estilos para los encabezados de nivel 1 (<h1>). */
+  text-align: center;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li { /* define los estilos para los elementos de lista  */
+  margin-bottom: 10px;
+}
+
+#mensaje {
+  color: red;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #cfcccc; 
+  height: calc(100vh - 20px); 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li a {
+  display: rgb(187, 186, 186);
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #cfcccc; 
+  border-radius: 5px;
+}
+
+.menu li a:hover {
+  background-color: #e9e3e3;
+}
+
+
+.boton {
+  position: absolute;
+  top: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.boton img {
+  width: 20px;
+  height: auto;
+}
+
+#boton1 {
+  right: 10px;
+}
+
+#boton2 {
+  right: 40px;
+}
+
+#boton3 {
+  right: 70px;
+}
+
+

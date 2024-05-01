@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+    <title>Supermercado Online</title>
+    <link rel="stylesheet" href="nuevo2.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logosuper.png" alt="Logo del supermercado">
+        </div>
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos">
+            <button type="button">Buscar</button>
+        </div>
+        <div class="login">
+            <a href="#">Iniciar sesión</a>
+            <a href="#">Registrarse</a>
+        </div>
+        <div class="carrito">
+            <a href="#">Carrito</a>
+            <span class="cantidad-productos">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="seccion-productos">
+            <h2>Ofertas destacadas</h2>
+            <div class="contenedor-productos">
+                <div class="producto">
+                    <img src="producto1.jpg" alt="Producto 1">
+                    <h3>Producto 1</h3>
+                    <p>$10.000</p>
+                    <a href="#">Añadir al carrito</a>
+                </div>
+                <div class="producto">
+                    <img src="producto2.jpg" alt="Producto 2">
+                    <h3>Producto 2</h3>
+                    <p>$15.000</p>
+                    <a href="#">Añadir al carrito</a>
+                </div>
+                <div class="producto">
+                    <img src="producto3.jpg" alt="Producto 3">
+                    <h3>Producto 3</h3>
+                    <p>$20.000</p>
+                    <a href="#">Añadir al carrito</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-productos">
+            <h2>Frutas y verduras</h2>
+            <div class="contenedor-productos">
+                </div>
+        </section>
+
+        <section class="seccion-productos">
+            <h2>Carnes y pescados</h2>
+            <div class="contenedor-productos">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Supermercado Online</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
